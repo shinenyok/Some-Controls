@@ -21,6 +21,8 @@
 		842D2147221CF04800A8973E /* IMLoadingProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 842D2146221CF04800A8973E /* IMLoadingProgressView.m */; };
 		8485C82D225DDCC500F1844B /* PageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8485C82C225DDCC500F1844B /* PageViewController.m */; };
 		8485C831225DE1F600F1844B /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8485C830225DE1F600F1844B /* FirstViewController.m */; };
+		848EA498229D159F009624DF /* UITableView+XY.m in Sources */ = {isa = PBXBuildFile; fileRef = 848EA494229D159E009624DF /* UITableView+XY.m */; };
+		848EA499229D159F009624DF /* XYNoDataView.m in Sources */ = {isa = PBXBuildFile; fileRef = 848EA497229D159F009624DF /* XYNoDataView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +71,10 @@
 		8485C82C225DDCC500F1844B /* PageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PageViewController.m; sourceTree = "<group>"; };
 		8485C82F225DE1F600F1844B /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		8485C830225DE1F600F1844B /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		848EA494229D159E009624DF /* UITableView+XY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+XY.m"; sourceTree = "<group>"; };
+		848EA495229D159E009624DF /* XYNoDataView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYNoDataView.h; sourceTree = "<group>"; };
+		848EA496229D159F009624DF /* UITableView+XY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+XY.h"; sourceTree = "<group>"; };
+		848EA497229D159F009624DF /* XYNoDataView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYNoDataView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +159,10 @@
 				842D210E221BF1EA00A8973E /* AppDelegate.m */,
 				842D2110221BF1EA00A8973E /* ViewController.h */,
 				842D2111221BF1EA00A8973E /* ViewController.m */,
+				848EA496229D159F009624DF /* UITableView+XY.h */,
+				848EA494229D159E009624DF /* UITableView+XY.m */,
+				848EA495229D159E009624DF /* XYNoDataView.h */,
+				848EA497229D159F009624DF /* XYNoDataView.m */,
 				8485C82B225DDCC500F1844B /* PageViewController.h */,
 				8485C82C225DDCC500F1844B /* PageViewController.m */,
 				8485C82F225DE1F600F1844B /* FirstViewController.h */,
@@ -334,12 +344,14 @@
 			files = (
 				842D2112221BF1EA00A8973E /* ViewController.m in Sources */,
 				8485C831225DE1F600F1844B /* FirstViewController.m in Sources */,
+				848EA498229D159F009624DF /* UITableView+XY.m in Sources */,
 				841DDFB72251FD2000749045 /* YZCircleChargeView.m in Sources */,
 				842D210F221BF1EA00A8973E /* AppDelegate.m in Sources */,
 				8485C82D225DDCC500F1844B /* PageViewController.m in Sources */,
 				842D2120221BF1EC00A8973E /* main.m in Sources */,
 				842D2118221BF1EA00A8973E /* test.xcdatamodeld in Sources */,
 				842D2147221CF04800A8973E /* IMLoadingProgressView.m in Sources */,
+				848EA499229D159F009624DF /* XYNoDataView.m in Sources */,
 				842D2144221BF2DF00A8973E /* DXCircleView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
